@@ -1,0 +1,46 @@
+server:
+  port: 9888
+
+management:
+  security:
+    enabled: false
+
+spring:
+  application:
+    name: config-server
+  cloud:
+      config:
+        server:
+          git:
+            uri: https://github.com/ypmc/maven-icbc
+            basedir: config
+            searchPaths: data
+            username: loukangkang@sina.cn
+            password: kk@github.com1234
+      discovery:
+          enabled: true
+          service-id: config-server
+
+#encrypt:
+#  failOnError: false
+#  keyStore:
+#    location: classpath:keystore.jks
+#    password: ${KEYSTORE_PASSWORD:foobar} # don't use a default in production
+#    alias: icbc
+
+# eureka client
+eureka:
+  password: password
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+# logging
+logging:
+  level:
+    com.netflix.discovery: 'DEBUG'
+    org.springframework.cloud: 'DEBUG'

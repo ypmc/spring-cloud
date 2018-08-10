@@ -1,0 +1,36 @@
+# server port
+server:
+  port: 9998
+# spring config
+spring:
+  application:
+    name: spring-boot-admin
+  discovery:
+    enabled: true
+    service-id: spring-boot-admin
+  boot:
+    admin:
+      routes:
+        endpoints: env,metrics,trace,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,hystrix.stream
+
+# management
+management:
+  security:
+    enabled: false
+
+#eureka client
+eureka:
+  password: password
+  instance:
+    hostname: 127.0.0.1
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+# log level
+logging:
+  level:
+    org.springframework.cloud: DEBUG

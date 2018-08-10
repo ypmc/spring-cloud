@@ -1,0 +1,32 @@
+endpoints:
+  actuator:
+    enabled: true
+  shutdown:
+    enabled: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "http://127.0.0.1:8761/eureka/"
+  instance:
+    hostname: "127.0.0.1"
+    leaseRenewalIntervalInSeconds: 10
+  password: password
+logging:
+  level:
+    com.netflix.discovery: "DEBUG"
+    org.springframework.cloud: DEBUG
+management:
+  security:
+    enabled: false
+server:
+  port: 8009
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    config:
+      label: master
+      uri: "http://localhost:9888"
+  discovery:
+    enabled: true
+    service-id: api-gateway
