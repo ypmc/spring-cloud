@@ -7,8 +7,8 @@ Sping Cloud 微服务架构集成示例
 # Hystrix
 服务熔断与Dashboard
 
-#Eureka
+# Eureka
 服务注册
 
-#Config Server
+# Config Server
 配置管理中心
