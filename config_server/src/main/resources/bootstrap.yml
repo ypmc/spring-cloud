@@ -12,11 +12,12 @@ spring:
       config:
         server:
           git:
-            uri: https://github.com/ypmc/maven-icbc
+            uri: https://github.com/ypmc/maven-test
             basedir: config
             searchPaths: data
-            username: loukangkang@sina.cn
-            password: kk@github.com1234
+            #根据实际git地址修改用户名和密码
+            username: ******
+            password: ******
       discovery:
           enabled: true
           service-id: config-server

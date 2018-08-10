@@ -15,7 +15,6 @@ import org.springframework.context.annotation.Configuration;
 public class ConfigServerApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(ConfigServerApplication.class, args);
 		new SpringApplicationBuilder(ConfigServerApplication.class).web(true).run(args);
 	}
 
