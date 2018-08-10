@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a90f7138-98a6-4b53-972e-07708fc31673" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config_client/src/main/cn/icbc/service/FindService.java" afterPath="$PROJECT_DIR$/config_client/src/main/cn/icbc/service/FindService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config_server/pom.xml" afterPath="$PROJECT_DIR$/config_server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config_server/src/main/java/demo/ConfigServerApplication.java" afterPath="$PROJECT_DIR$/config_server/src/main/java/demo/ConfigServerApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config_server/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/config_server/src/main/resources/bootstrap.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/config_server/target/" />
@@ -49,7 +45,7 @@
       <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config_server/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
+            <state relative-caret-position="229">
               <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding />
             </state>
@@ -595,12 +591,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533867053477</updated>
-      <workItem from="1533867055710" duration="8389000" />
+      <workItem from="1533867055710" duration="8798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8389000" />
+    <option name="totallyTimeSpent" value="8798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -760,7 +756,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config_server/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="229">
           <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding />
         </state>
