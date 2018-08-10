@@ -8,18 +8,24 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="config-client" />
+        <module name="config-server" />
         <module name="configserver" />
         <module name="eureka" />
+        <module name="eureka-server" />
         <module name="hystrix-dashboard" />
+        <module name="spring-boot-admin" />
         <module name="SpringBootAdminApplication" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.8" />
       <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="configserver" target="1.7" />
       <module name="eureka" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
+      <module name="spring-boot-admin" target="1.8" />
       <module name="spring-cloud" target="1.8" />
       <module name="SpringBootAdminApplication" target="1.8" />
     </bytecodeTargetLevel>

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring_boot_admin/SpringBootAdminApplication.iml" filepath="$PROJECT_DIR$/spring_boot_admin/SpringBootAdminApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/api_gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api_gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/config_client/config-client.iml" filepath="$PROJECT_DIR$/config_client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config_server/configserver.iml" filepath="$PROJECT_DIR$/config_server/configserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka.iml" filepath="$PROJECT_DIR$/eureka_server/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix_dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix_dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_boot_admin/SpringBootAdminApplication.iml" filepath="$PROJECT_DIR$/spring_boot_admin/SpringBootAdminApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
     </modules>
   </component>
