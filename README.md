@@ -12,3 +12,6 @@ Sping Cloud 微服务架构集成示例
 
 # Config Server
 配置管理中心
+
+# Spring Boot Admin
+服务监控
