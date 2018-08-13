@@ -14,4 +14,4 @@ git.properties
 .idea
 *.iml
 .factorypath
-src/main/resources/bootstrap.yml
+src/main/resources/
