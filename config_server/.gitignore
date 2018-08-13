@@ -42,3 +42,6 @@ nohup.out
 # git user
 src/main/resources/
 
+# git ignore
+.gitignore
+
