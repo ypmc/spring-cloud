@@ -14,3 +14,4 @@ git.properties
 .idea
 *.iml
 .factorypath
+*.yml
