@@ -26,9 +26,19 @@ target/
 *.patch
 *.tmp
 
+# system ignore
+.DS_Store
+Thumbs.db
+
+# project ignore
+**/tmp
+pom.xml.versionsBackup
+
+# generated at runtime
+logs/
+data/
+nohup.out
+
 # git user
 src/main/resources/
-
-# git ignore
-.gitignore
 
