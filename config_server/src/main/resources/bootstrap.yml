@@ -17,7 +17,7 @@ spring:
             searchPaths: data
             #根据实际git地址修改用户名和密码
             username: loukangkang@sina.cn
-            password: tt
+            password: kk@github.com1234
       discovery:
           enabled: true
           service-id: config-server
