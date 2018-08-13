@@ -1,18 +1,34 @@
-*~
-#*
-*#
-.#*
-.classpath
+# maven ignore
+target/
+
+# eclipse ignore
+.settings/
 .project
-.settings
-.springBeans
-.gradle
-build
-bin
-/target/
-git.properties
-.idea
+.classpath
+
+# idea ignore
+.idea/
+.idea_modules/
+*.ipr
 *.iml
-/main/resources/
-/src/main/resources/
+*.iws
+
+# package ignore
+*.class
+*.jar
+*.war
+*.ear
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# git user
+src/main/resources/
+
+# git ignore
+.gitignore
 
