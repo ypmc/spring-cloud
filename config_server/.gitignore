@@ -13,5 +13,4 @@ bin
 git.properties
 .idea
 *.iml
-.factorypath
-src/main/resources/
+*.yml
