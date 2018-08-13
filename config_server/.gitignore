@@ -13,4 +13,4 @@ bin
 git.properties
 .idea
 *.iml
-**/resources/*.yml
+**/resources/
