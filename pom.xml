@@ -14,6 +14,8 @@
         <module>spring_boot_admin</module>
         <module>hystrix_dashboard</module>
         <module>eureka_server</module>
+        <module>user-service - 1</module>
+        <module>user-service - 2</module>
     </modules>
 
     <name>spring-cloud</name>
