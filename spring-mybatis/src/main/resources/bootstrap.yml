@@ -5,6 +5,10 @@ spring:
     name: spring-mybatis
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: "jdbc:mysql://192.168.43.61:3306/cib"
+    username: icbc
+    password: icbc
     filters: stat
     initialSize: 1
     maxActive: 20
@@ -12,16 +16,11 @@ spring:
     maxWait: 60000
     minEvictableIdleTimeMillis: 300000
     minIdle: 1
-    name: test
-    password: icbc
     poolPreparedStatements: true
     testOnBorrow: false
     testOnReturn: false
     testWhileIdle: true
     timeBetweenEvictionRunsMillis: 60000
-    type: com.alibaba.druid.pool.DruidDataSource
-    url: "jdbc:mysql://192.168.43.61:3306/cib"
-    username: icbc
     validationQuery: "select 1"
 mybatis:
   configuration:
