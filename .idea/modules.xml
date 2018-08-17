@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka.iml" filepath="$PROJECT_DIR$/eureka_server/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix_dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix_dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service - 1/user-service.iml" filepath="$PROJECT_DIR$/user-service - 1/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service - 2/user-service (1).iml" filepath="$PROJECT_DIR$/user-service - 2/user-service (1).iml" />
     </modules>

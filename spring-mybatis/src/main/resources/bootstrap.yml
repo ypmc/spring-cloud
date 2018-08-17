@@ -1,0 +1,30 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-mybatis
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat
+    initialSize: 1
+    maxActive: 20
+    maxOpenPreparedStatements: 20
+    maxWait: 60000
+    minEvictableIdleTimeMillis: 300000
+    minIdle: 1
+    name: test
+    password: icbc
+    poolPreparedStatements: true
+    testOnBorrow: false
+    testOnReturn: false
+    testWhileIdle: true
+    timeBetweenEvictionRunsMillis: 60000
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: "jdbc:mysql://192.168.43.61:3306/cib"
+    username: icbc
+    validationQuery: "select 1"
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    default-statement-timeout: 30
+    default-fetch-size: 100

@@ -1,4 +1,4 @@
-package cn.cib.api;
+package cn.cib.configuration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

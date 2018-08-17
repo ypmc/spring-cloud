@@ -1,4 +1,4 @@
-package cn.cib.api;
+package cn.cib.configuration;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
