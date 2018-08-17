@@ -16,7 +16,7 @@ spring:
             basedir: config
             searchPaths: data
             #根据实际git地址修改用户名和密码
-            username: loukangkang@sina.cn
+            username: **
             password: **
       discovery:
           enabled: true
