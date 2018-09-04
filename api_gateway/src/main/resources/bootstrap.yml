@@ -3,6 +3,7 @@ endpoints:
     enabled: true
   shutdown:
     enabled: true
+    sensitive: false
 eureka:
   client:
     serviceUrl:
