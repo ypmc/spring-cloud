@@ -1,5 +1,5 @@
 -- Table: people
--- Create Table:
+-- Create Table
 use hdfs
 CREATE TABLE `people` (
   `person_id` char(36) NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE `people` (
 
 
 -- Table: user
--- Create Table:
+-- Create Table
 use test
 CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
