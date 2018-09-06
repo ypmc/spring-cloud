@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a90f7138-98a6-4b53-972e-07708fc31673" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/.settings/org.eclipse.core.resources.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/configuration/PersistenceContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/configuration/RepositoryPrimaryConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/configuration/RepositorySecondaryConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/entity/read/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/entity/write/People.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/job/FlatFileBatchJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/job/JpaPagingBatchJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/listener/RepositoryItemWriterJobListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/processor/UserPeopleItemProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/repository/read/UserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/repository/write/PeopleRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/step/FlatFileBatchStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/step/JpaPagingStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/resources/sample-data.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-batch/src/main/resources/schema-all.sql" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/configuration/FlatFileBatchConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/configuration/JpaPagingBatchConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-batch/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-batch/.project" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/reader/UserReader.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/reader/UserReader.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/config_server/target/" />
@@ -675,7 +642,7 @@
       <workItem from="1536195192280" duration="1776000" />
       <workItem from="1536197183995" duration="1609000" />
       <workItem from="1536198897027" duration="1700000" />
-      <workItem from="1536200991210" duration="16024000" />
+      <workItem from="1536200991210" duration="16180000" />
     </task>
     <task id="LOCAL-00001" summary="config server git account">
       <created>1534121919514</created>
@@ -726,11 +693,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536222379033</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Spring Batch initial">
+      <created>1536223791442</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536223791442</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80779000" />
+    <option name="totallyTimeSpent" value="80935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
