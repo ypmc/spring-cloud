@@ -15,7 +15,7 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 public class HystrixDashboardApplication {
 	private static final Logger log = LoggerFactory.getLogger(HystrixDashboardApplication.class);
     public static void main(String[] args) {
-    	log.debug("test");
+    	log.debug("cib");
         SpringApplication.run(HystrixDashboardApplication.class, args);
     }
 }

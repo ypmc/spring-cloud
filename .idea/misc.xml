@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/user-service - 2/pom.xml" />
         <option value="$PROJECT_DIR$/spring-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-batch/pom.xml" />
       </list>
     </option>
   </component>
