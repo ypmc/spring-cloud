@@ -50,7 +50,7 @@ public class UserReader {
     }
 
     @Bean
-    @Qualifier("jpaPaginItemReader")
+    @Qualifier("jpaPagingItemReader")
     public ItemReader<User> jpaPagingItemReader() {
         JpaPagingItemReader<User> reader = new JpaPagingItemReader<User>();
         String sqlQuery = "select * from user where id like :limit ";

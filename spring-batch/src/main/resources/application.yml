@@ -1,0 +1,48 @@
+################### DataSource Configuration ##########################
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.43.61:3306/cib?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: icbc
+    password: icbc
+    initialize: false
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    auto-ddl: update
+init-db: false
+
+
+r_datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://192.168.43.61:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: icbc
+    password: icbc
+    driver-class-name: com.mysql.jdbc.Driver
+    continue-on-error: false
+    sql-script-encoding: UTF-8
+
+w_datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://192.168.43.61:3306/hdfs?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: icbc
+    password: icbc
+    driver-class-name: com.mysql.jdbc.Driver
+    continue-on-error: false
+    sql-script-encoding: UTF-8
+
+
+hibernate:
+  dialect: org.hibernate.dialect.H2Dialect
+  hbm2ddl:
+    auto: create-drop
+  ejb:
+    naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
+  show_sql: true
+  format_sql: true
+
+logging:
+  level:
+    org:
+      springframework: WARN
+      hibernate: WARN
