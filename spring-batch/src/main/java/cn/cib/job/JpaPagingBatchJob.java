@@ -14,8 +14,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 @Configuration
-@EnableBatchProcessing
-@Import({RepositoryPrimaryConfig.class, RepositorySecondaryConfig.class})
 public class JpaPagingBatchJob {
 
     @Autowired

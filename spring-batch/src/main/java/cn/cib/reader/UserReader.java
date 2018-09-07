@@ -1,7 +1,10 @@
 package cn.cib.reader;
 
 import cn.cib.entity.read.User;
+import cn.cib.repository.read.UserReaderRepository;
 import org.springframework.batch.item.ItemReader;
+import org.springframework.batch.item.data.RepositoryItemReader;
+import org.springframework.batch.item.data.RepositoryItemWriter;
 import org.springframework.batch.item.database.JpaPagingItemReader;
 import org.springframework.batch.item.database.orm.JpaNativeQueryProvider;
 import org.springframework.batch.item.file.FlatFileItemReader;
@@ -12,10 +15,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.EntityManagerFactory;
-import java.util.Collections;
+import java.util.*;
 
 /**
  * @author kangkang lou
@@ -26,6 +30,9 @@ public class UserReader {
     @Autowired
     @Qualifier(value = "entityManagerFactoryPrimary")
     private EntityManagerFactory emf;
+
+    @Autowired
+    private UserReaderRepository userReaderRepository;
 
     @Bean
     public FlatFileItemReader<User> flatFileItemReader() {
@@ -49,7 +56,7 @@ public class UserReader {
         return reader;
     }
 
-    @Bean
+    @Bean(destroyMethod = "")
     @Qualifier("jpaPagingItemReader")
     public ItemReader<User> jpaPagingItemReader() {
         JpaPagingItemReader<User> reader = new JpaPagingItemReader<User>();
@@ -65,4 +72,33 @@ public class UserReader {
         return reader;
     }
 
+    @Bean
+    @Qualifier("repositoryItemReader")
+    public RepositoryItemReader<User> repositoryItemReader() {
+        Map<String, Sort.Direction> map = new HashMap<>();
+        map.put("id", Sort.Direction.DESC);
+        RepositoryItemReader<User> repositoryItemReader = new RepositoryItemReader<>();
+        repositoryItemReader.setRepository(userReaderRepository);
+        repositoryItemReader.setPageSize(5);
+        repositoryItemReader.setMethodName("findAll");
+        repositoryItemReader.setSort(map);
+        return repositoryItemReader;
+    }
+
+
+    @Bean
+    @Qualifier("repositoryItemReaderWithParams")
+    public RepositoryItemReader<User> repositoryItemReaderWithParams() {
+        Map<String, Sort.Direction> map = new HashMap<>();
+        map.put("id", Sort.Direction.DESC);
+        List<String> params = new ArrayList();
+        params.add("i%");
+        RepositoryItemReader<User> repositoryItemReader = new RepositoryItemReader<>();
+        repositoryItemReader.setRepository(userReaderRepository);
+        repositoryItemReader.setPageSize(5);
+        repositoryItemReader.setMethodName("findAllByFirstNameLike");
+        repositoryItemReader.setArguments(params);
+        repositoryItemReader.setSort(map);
+        return repositoryItemReader;
+    }
 }

@@ -16,6 +16,7 @@
         <module>eureka_server</module>
         <module>user-service - 1</module>
         <module>user-service - 2</module>
+        <module>spring-batch</module>
     </modules>
 
     <name>spring-cloud</name>

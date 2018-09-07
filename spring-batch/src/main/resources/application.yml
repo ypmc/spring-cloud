@@ -1,5 +1,10 @@
 ################### DataSource Configuration ##########################
+server:
+  port: 9901
 spring:
+  batch:
+    job:
+      enabled: false
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.43.61:3306/cib?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
