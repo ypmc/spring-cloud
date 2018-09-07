@@ -15,26 +15,26 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Slf4j
-@RequestMapping("/repos")
-public class RepositoryJobLauncherController {
+@RequestMapping("/jpa")
+public class JpaPagingJobLauncherController {
 
     @Autowired
     private JobLaunchService jobLaunchService;
 
     @Autowired
-    private Job jobWithRepositoryStepWithParams;
+    private Job jobInJpaPagingWithJdbcBatchItemWriter;
 
     @Autowired
-    private Job jobWithRepositoryStep;
+    private Job jobInJpaPagingWithRepositoryItemWriter;
 
-    @GetMapping("/param")
-    public JobResult launchJobWithRepositoryStepWithParams() {
-        return jobLaunchService.launchJob(jobWithRepositoryStepWithParams);
+    @GetMapping("/jdbc")
+    public JobResult launchJobInJpaPagingWithJdbcBatchItemWriter() {
+        return jobLaunchService.launchJob(jobInJpaPagingWithJdbcBatchItemWriter);
     }
 
-    @GetMapping
-    public JobResult launchJobWithRepositoryStep() {
-        return jobLaunchService.launchJob(jobWithRepositoryStep);
+    @GetMapping("/repos")
+    public JobResult launchJobInJpaPagingWithRepositoryItemWriter() {
+        return jobLaunchService.launchJob(jobInJpaPagingWithRepositoryItemWriter);
     }
 
 

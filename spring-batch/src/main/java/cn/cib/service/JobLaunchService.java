@@ -28,6 +28,7 @@ public class JobLaunchService {
                     .toJobParameters();
             JobExecution jobExecution = jobLauncher.run(job, jobParameters);
             return JobResult.builder()
+                    .jobName(job.getName())
                     .jobId(jobExecution.getJobId())
                     .jobExitStatus(jobExecution.getExitStatus())
                     .timestamp(Calendar.getInstance().getTimeInMillis())
