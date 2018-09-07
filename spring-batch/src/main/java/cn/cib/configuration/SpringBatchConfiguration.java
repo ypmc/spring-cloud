@@ -28,7 +28,7 @@ import javax.sql.DataSource;
  */
 @Configuration
 @Slf4j
-public class JpaBatchConfiguration implements BatchConfigurer {
+public class SpringBatchConfiguration implements BatchConfigurer {
 
     @Autowired
     private DataSource dataSource;
@@ -41,7 +41,7 @@ public class JpaBatchConfiguration implements BatchConfigurer {
     private JobExplorer jobExplorer;
 
 
-    protected JpaBatchConfiguration() {
+    protected SpringBatchConfiguration() {
     }
 
 
