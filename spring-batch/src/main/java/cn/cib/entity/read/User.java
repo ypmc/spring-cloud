@@ -15,10 +15,10 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table
+@Table(name = "user")
 public class User {
     @Id
-    @Column
+    @Column(name = "id")
     private String id;
     @Column(name = "first_name")
     private String firstName;

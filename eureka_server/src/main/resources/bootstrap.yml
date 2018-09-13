@@ -19,11 +19,14 @@ management:
   security:
     enabled: false
 
-
 endpoints:
   health:
     sensitive: true
-
+  actuator:
+    enabled: true
+  shutdown:
+    enabled: true
+    sensitive: false
 # eureka server
 eureka:
   instance:

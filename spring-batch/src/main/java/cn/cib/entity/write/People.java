@@ -17,9 +17,10 @@ import javax.persistence.Table;
 @Table(name = "people")
 public class People {
     @Id
+    @Column(name = "person_id")
     private String personId;
-    @Column
+    @Column(name = "first_name")
     private String firstName;
-    @Column
+    @Column(name = "last_name")
     private String lastName;
 }

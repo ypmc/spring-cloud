@@ -13,14 +13,14 @@ import com.alibaba.druid.pool.DruidDataSource;
 @Configuration
 class PersistenceContext {
 
-    @ConfigurationProperties(prefix = "r_datasource")
+    @ConfigurationProperties(prefix = "datasource-reader")
     @Primary
     @Bean(name="r_ds")  @Qualifier("r_ds")
     public DataSource readDruidDataSource() {
         return new DruidDataSource();
     }
     
-    @ConfigurationProperties(prefix = "w_datasource")
+    @ConfigurationProperties(prefix = "datasource-writer")
     @Bean(name="w_ds") @Qualifier("w_ds")
     public DataSource writeDruidDataSource() {
         return new DruidDataSource();

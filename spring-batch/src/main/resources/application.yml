@@ -10,15 +10,15 @@ spring:
     url: jdbc:mysql://192.168.43.61:3306/cib?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
     username: icbc
     password: icbc
-    initialize: false
   jpa:
     generate-ddl: false
     show-sql: true
     auto-ddl: update
+    open-in-view: false
 init-db: false
 
 
-r_datasource:
+datasource-reader:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://192.168.43.61:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
     username: icbc
@@ -27,7 +27,7 @@ r_datasource:
     continue-on-error: false
     sql-script-encoding: UTF-8
 
-w_datasource:
+datasource-writer:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://192.168.43.61:3306/hdfs?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
     username: icbc

@@ -26,6 +26,7 @@
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.8" />
       <module name="api-gateway (1)" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="configserver" target="1.8" />
