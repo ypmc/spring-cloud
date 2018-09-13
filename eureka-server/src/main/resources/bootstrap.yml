@@ -16,8 +16,11 @@ spring:
 
 
 management:
+  port: 8762
   security:
     enabled: false
+  context-path: '/admin'
+
 
 endpoints:
   health:

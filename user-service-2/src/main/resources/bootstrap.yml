@@ -1,5 +1,5 @@
 server:
-  port: 9002
+  port: 9003
 spring:
   application:
     name: user-service
@@ -12,9 +12,16 @@ spring:
 endpoints:
   health:
     sensitive: true
+  shutdown:
+    enabled: true
+    sensitive: true
+
 management:
   security:
     enabled: false
+  port: 9004
+  context-path: '/admin'
+
 eureka:
   password: password
   instance:

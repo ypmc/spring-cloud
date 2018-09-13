@@ -17,6 +17,18 @@ spring:
     open-in-view: false
 init-db: false
 
+endpoints:
+  health:
+    sensitive: true
+  shutdown:
+    enabled: true
+    sensitive: true
+
+management:
+  security:
+    enabled: false
+  context-path: '/admin'
+  port: 9902
 
 datasource-reader:
     type: com.alibaba.druid.pool.DruidDataSource

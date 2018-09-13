@@ -12,9 +12,16 @@ spring:
 endpoints:
   health:
     sensitive: true
+  shutdown:
+    enabled: true
+    sensitive: false
+
 management:
   security:
     enabled: false
+  context-path: '/admin'
+  port: 9002
+
 eureka:
   password: password
   instance:

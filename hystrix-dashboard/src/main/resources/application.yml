@@ -15,6 +15,9 @@ endpoints:
 management:
   security:
     enabled: false
+  context-path: '/admin'
+  port: 8091
+
 eureka:
   password: password
   instance:
