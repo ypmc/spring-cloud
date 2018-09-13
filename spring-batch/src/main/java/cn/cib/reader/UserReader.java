@@ -4,7 +4,6 @@ import cn.cib.entity.read.User;
 import cn.cib.repository.read.UserReaderRepository;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.data.RepositoryItemReader;
-import org.springframework.batch.item.data.RepositoryItemWriter;
 import org.springframework.batch.item.data.builder.RepositoryItemReaderBuilder;
 import org.springframework.batch.item.database.JpaPagingItemReader;
 import org.springframework.batch.item.database.orm.JpaNativeQueryProvider;

@@ -8,14 +8,14 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>api_gateway</module>
-        <module>config_client</module>
-        <module>config_server</module>
-        <module>spring_boot_admin</module>
-        <module>hystrix_dashboard</module>
-        <module>eureka_server</module>
-        <module>user-service - 1</module>
-        <module>user-service - 2</module>
+        <module>api-gateway</module>
+        <module>config-client</module>
+        <module>config-server</module>
+        <module>spring-boot-admin</module>
+        <module>hystrix-dashboard</module>
+        <module>eureka-server</module>
+        <module>user-service-1</module>
+        <module>user-service-2</module>
         <module>spring-batch</module>
     </modules>
 

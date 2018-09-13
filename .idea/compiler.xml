@@ -21,6 +21,8 @@
         <module name="SpringBootAdminApplication" />
         <module name="user-service" />
         <module name="user-service (1)" />
+        <module name="user-service-1" />
+        <module name="user-service-2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +43,8 @@
       <module name="SpringBootAdminApplication" target="1.8" />
       <module name="user-service" target="1.8" />
       <module name="user-service (1)" target="1.8" />
+      <module name="user-service-1" target="1.8" />
+      <module name="user-service-2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
