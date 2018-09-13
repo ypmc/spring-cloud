@@ -4,7 +4,7 @@
     <groupId>cn.cib</groupId>
     <artifactId>config-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Config Client</name>
+    <name>config-client</name>
     <description>config-client</description>
     <build>
         <sourceDirectory>src</sourceDirectory>
@@ -24,6 +24,15 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <!-- hystrix start-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -94,5 +103,6 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
         </dependency>
+
     </dependencies>
 </project>

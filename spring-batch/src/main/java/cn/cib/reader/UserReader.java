@@ -4,7 +4,6 @@ import cn.cib.entity.read.User;
 import cn.cib.repository.read.UserReaderRepository;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.data.RepositoryItemReader;
-import org.springframework.batch.item.data.builder.RepositoryItemReaderBuilder;
 import org.springframework.batch.item.database.JpaPagingItemReader;
 import org.springframework.batch.item.database.orm.JpaNativeQueryProvider;
 import org.springframework.batch.item.file.FlatFileItemReader;
@@ -77,20 +76,20 @@ public class UserReader {
     public RepositoryItemReader<User> repositoryItemReader() {
         Map<String, Sort.Direction> map = new HashMap<>();
         map.put("id", Sort.Direction.DESC);
-//        RepositoryItemReader<User> repositoryItemReader = new RepositoryItemReader<>();
-//        repositoryItemReader.setRepository(userReaderRepository);
-//        repositoryItemReader.setPageSize(5);
-//        repositoryItemReader.setMethodName("findAll");
-//        repositoryItemReader.setSort(map);
-//        return repositoryItemReader;
+        RepositoryItemReader<User> repositoryItemReader = new RepositoryItemReader<>();
+        repositoryItemReader.setRepository(userReaderRepository);
+        repositoryItemReader.setPageSize(5);
+        repositoryItemReader.setMethodName("findAll");
+        repositoryItemReader.setSort(map);
+        return repositoryItemReader;
 //        using RepositoryItemReaderBuilder
-        return new RepositoryItemReaderBuilder<User>()
-                .methodName("findAll")
-                .repository(userReaderRepository)
-                .pageSize(5)
-                .sorts(map)
-                .saveState(false)
-                .build();
+//        return new RepositoryItemReaderBuilder<User>()
+//                .methodName("findAll")
+//                .repository(userReaderRepository)
+//                .pageSize(5)
+//                .sorts(map)
+//                .saveState(false)
+//                .build();
     }
 
 
