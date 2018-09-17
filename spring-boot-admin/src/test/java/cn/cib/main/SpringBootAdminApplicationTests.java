@@ -1,4 +1,4 @@
-package com.example.SpringBootAdminApplication;
+package cn.cib.main;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package demo.controller;
+package cn.cib.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

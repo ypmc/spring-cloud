@@ -9,6 +9,8 @@ spring:
   discovery:
       enabled: true
       service-id: user-service
+  swagger:
+      enable: true
 endpoints:
   health:
     sensitive: true

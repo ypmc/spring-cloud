@@ -17,6 +17,7 @@
         <module>user-service-1</module>
         <module>user-service-2</module>
         <module>spring-batch</module>
+        <module>spring-mybatis</module>
     </modules>
 
     <name>spring-cloud</name>
@@ -196,6 +197,21 @@
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-validator-annotation-processor</artifactId>
                 <version>5.3.5.Final</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>2.9.2</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>2.9.2</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-bean-validators</artifactId>
+                <version>2.9.2</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

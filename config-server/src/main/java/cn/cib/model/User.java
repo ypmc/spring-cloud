@@ -1,4 +1,4 @@
-package demo.model;
+package cn.cib.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
