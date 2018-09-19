@@ -18,6 +18,7 @@
         <module>user-service-2</module>
         <module>spring-batch</module>
         <module>spring-mybatis</module>
+        <module>spring-elastic-job</module>
     </modules>
 
     <name>spring-cloud</name>
@@ -212,6 +213,21 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-bean-validators</artifactId>
                 <version>2.9.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dangdang</groupId>
+                <artifactId>elastic-job-lite-core</artifactId>
+                <version>2.1.5</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dangdang</groupId>
+                <artifactId>elastic-job-lite-spring</artifactId>
+                <version>2.1.5</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.16</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

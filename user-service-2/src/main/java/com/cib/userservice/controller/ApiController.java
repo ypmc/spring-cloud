@@ -14,7 +14,7 @@ import java.util.Date;
  * @author kangkang lou
  */
 @RestController
-@Api
+@Api(value = "用户接口", description = "用户接口", tags = {"用户相关接口"})
 public class ApiController {
 
     @GetMapping("user/{id}")

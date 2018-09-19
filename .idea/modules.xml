@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-batch/spring-batch.iml" filepath="$PROJECT_DIR$/spring-batch/spring-batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" filepath="$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-elastic-job/spring-elastic-job.iml" filepath="$PROJECT_DIR$/spring-elastic-job/spring-elastic-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service-1/user-service-1.iml" filepath="$PROJECT_DIR$/user-service-1/user-service-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service-2/user-service-2.iml" filepath="$PROJECT_DIR$/user-service-2/user-service-2.iml" />

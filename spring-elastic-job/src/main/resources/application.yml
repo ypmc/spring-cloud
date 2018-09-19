@@ -1,0 +1,17 @@
+server:
+  port: 8766
+
+spring:
+  application:
+    name: cib-scheduler-service
+
+reg-center:
+  server-list: "192.168.43.61:2181"
+  namespace: elastic-job-lite-spring-boot
+
+monitor:
+  cron: 0/5 * * * * ?
+  sharding-total-count: 2
+  sharding-item-parameters: 0=CIB,1=ICBC
+  job-description: "监控作业"
+  job-parameter: "hello elastic job"

@@ -17,6 +17,7 @@
         <module name="hystrix-dashboard" />
         <module name="spring-batch" />
         <module name="spring-boot-admin" />
+        <module name="spring-elastic-job" />
         <module name="spring-mybatis" />
         <module name="SpringBootAdminApplication" />
         <module name="user-service" />
@@ -32,6 +33,7 @@
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="configserver" target="1.8" />
+      <module name="elastic-job-lite-console" target="1.5" />
       <module name="eureka" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="gs-batch-processing" target="1.8" />
@@ -39,6 +41,7 @@
       <module name="spring-batch" target="1.8" />
       <module name="spring-boot-admin" target="1.8" />
       <module name="spring-cloud" target="1.8" />
+      <module name="spring-elastic-job" target="1.8" />
       <module name="spring-mybatis" target="1.8" />
       <module name="SpringBootAdminApplication" target="1.8" />
       <module name="user-service" target="1.8" />
