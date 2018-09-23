@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a90f7138-98a6-4b53-972e-07708fc31673" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/ElasticScriptJobConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/ElasticScriptJobProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/job/ElasticScriptJob.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/target/classes/application.yml" afterPath="$PROJECT_DIR$/spring-elastic-job/target/classes/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/config_server/target/" />
@@ -55,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/ElasticScriptJobConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <caret line="37" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -348,46 +343,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-elastic-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-elastic-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cib" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-elastic-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cib" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-elastic-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cib" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="ServiceMonitor" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -843,7 +798,7 @@
       <workItem from="1537615225226" duration="5885000" />
       <workItem from="1537654728094" duration="429000" />
       <workItem from="1537684241918" duration="2055000" />
-      <workItem from="1537699105040" duration="904000" />
+      <workItem from="1537699105040" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="config server git account">
       <created>1534121919514</created>
@@ -1010,7 +965,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200734000" />
+    <option name="totallyTimeSpent" value="200969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1443,7 +1398,7 @@
     <entry file="file://$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/ElasticScriptJobConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <caret line="37" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
