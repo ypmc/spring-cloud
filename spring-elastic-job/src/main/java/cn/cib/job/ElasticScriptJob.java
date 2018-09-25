@@ -1,5 +1,6 @@
 package cn.cib.job;
 
+import cn.cib.listener.CommonElasticJobListener;
 import com.dangdang.ddframe.job.lite.api.JobScheduler;
 import com.dangdang.ddframe.job.lite.config.LiteJobConfiguration;
 import com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter;
@@ -18,8 +19,11 @@ public class ElasticScriptJob {
     @Autowired
     private LiteJobConfiguration scriptLiteJobConfiguration;
 
+    @Autowired
+    private CommonElasticJobListener commonElasticJobListener;
+
     @Bean(initMethod = "init")
     public JobScheduler scriptJob() {
-        return new JobScheduler(regCenter, scriptLiteJobConfiguration);
+        return new JobScheduler(regCenter, scriptLiteJobConfiguration, commonElasticJobListener);
     }
 }

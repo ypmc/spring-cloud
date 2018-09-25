@@ -5,6 +5,7 @@ package cn.cib.config;
  */
 
 import cn.cib.job.ServiceMonitor;
+import cn.cib.listener.CommonElasticJobListener;
 import com.dangdang.ddframe.job.lite.api.JobScheduler;
 import com.dangdang.ddframe.job.lite.config.LiteJobConfiguration;
 import com.dangdang.ddframe.job.lite.spring.api.SpringJobScheduler;
@@ -25,10 +26,13 @@ public class MonitorJobConfig {
     @Autowired
     private LiteJobConfiguration liteJobConfiguration;
 
+    @Autowired
+    private CommonElasticJobListener commonElasticJobListener;
+
     @Bean(initMethod = "init")
     public JobScheduler simpleJobScheduler() {
         return new SpringJobScheduler(serviceMonitor
                 , regCenter
-                , liteJobConfiguration);
+                , liteJobConfiguration, commonElasticJobListener);
     }
 }
