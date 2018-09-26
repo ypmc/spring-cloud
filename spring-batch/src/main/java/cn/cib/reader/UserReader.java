@@ -21,7 +21,7 @@ import javax.persistence.EntityManagerFactory;
 import java.util.*;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Component
 public class UserReader {

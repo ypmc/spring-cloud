@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @RestController
 @Api(value = "用户接口", description = "用户接口", tags = {"用户相关接口"})

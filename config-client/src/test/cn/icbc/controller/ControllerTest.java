@@ -6,7 +6,7 @@ import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @SpringBootTest(classes = ConfigClientApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class ControllerTest extends AbstractTestNGSpringContextTests {

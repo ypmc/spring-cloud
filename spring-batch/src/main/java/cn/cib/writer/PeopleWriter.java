@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 import javax.sql.DataSource;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Component
 public class PeopleWriter {

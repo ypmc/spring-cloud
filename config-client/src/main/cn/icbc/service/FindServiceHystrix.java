@@ -4,7 +4,7 @@ import main.cn.icbc.bean.User;
 import org.springframework.stereotype.Component;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Component
 public class FindServiceHystrix implements FindService {

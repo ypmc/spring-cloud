@@ -1,7 +1,7 @@
 package cn.cib.job;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 
 import com.dangdang.ddframe.job.api.ShardingContext;

@@ -6,7 +6,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 public interface UserReaderRepository extends PagingAndSortingRepository<User, Long> {
     @Override

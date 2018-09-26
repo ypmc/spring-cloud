@@ -3,7 +3,7 @@ package main.cn.icbc.service;
 import org.springframework.stereotype.Component;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Component
 public class UserServiceHystrix implements UserService {

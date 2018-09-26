@@ -1,7 +1,7 @@
 package cn.cib.configuration.service;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 public interface VersionService {
     String version();

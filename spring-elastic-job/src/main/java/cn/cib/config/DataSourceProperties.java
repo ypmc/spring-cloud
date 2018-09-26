@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Primary;
 import javax.sql.DataSource;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Getter
 @Setter

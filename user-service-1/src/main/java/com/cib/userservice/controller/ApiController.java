@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @RestController
 public class ApiController {

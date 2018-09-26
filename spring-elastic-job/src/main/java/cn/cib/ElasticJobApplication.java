@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @SpringBootApplication
 public class ElasticJobApplication {

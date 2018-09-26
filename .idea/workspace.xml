@@ -5,13 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a90f7138-98a6-4b53-972e-07708fc31673" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/DataSourceProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/JobEventConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/pom.xml" afterPath="$PROJECT_DIR$/spring-elastic-job/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-gateway/src/main/java/cn/cib/configuration/controller/Api.java" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/cn/cib/configuration/controller/Api.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-gateway/src/main/java/cn/cib/configuration/service/Impl/VersionServiceImpl.java" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/cn/cib/configuration/service/Impl/VersionServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api-gateway/src/main/java/cn/cib/configuration/service/VersionService.java" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/cn/cib/configuration/service/VersionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-client/src/main/cn/icbc/service/FindServiceHystrix.java" afterPath="$PROJECT_DIR$/config-client/src/main/cn/icbc/service/FindServiceHystrix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-client/src/main/cn/icbc/service/UserService.java" afterPath="$PROJECT_DIR$/config-client/src/main/cn/icbc/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-client/src/main/cn/icbc/service/UserServiceHystrix.java" afterPath="$PROJECT_DIR$/config-client/src/main/cn/icbc/service/UserServiceHystrix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-client/src/test/cn/icbc/abs/AbstractSpringTest.java" afterPath="$PROJECT_DIR$/config-client/src/test/cn/icbc/abs/AbstractSpringTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-client/src/test/cn/icbc/controller/ControllerTest.java" afterPath="$PROJECT_DIR$/config-client/src/test/cn/icbc/controller/ControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/src/main/java/cn/cib/controller/ApiController.java" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/cn/cib/controller/ApiController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/configuration/HibernatePropertiesBuilder.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/configuration/HibernatePropertiesBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/configuration/SpringBatchConfiguration.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/configuration/SpringBatchConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/controller/FlatFileJobLauncherController.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/controller/FlatFileJobLauncherController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/controller/JpaPagingJobLauncherController.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/controller/JpaPagingJobLauncherController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/controller/RepositoryJobLauncherController.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/controller/RepositoryJobLauncherController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/entity/JobResult.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/entity/JobResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/job/RepositoryJob.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/job/RepositoryJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/reader/UserReader.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/reader/UserReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/repository/read/UserReaderRepository.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/repository/read/UserReaderRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/repository/write/PeopleCrudRepository.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/repository/write/PeopleCrudRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/service/JobLaunchService.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/service/JobLaunchService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/step/FlatFileBatchStep.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/step/FlatFileBatchStep.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/step/JpaPagingStep.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/step/JpaPagingStep.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/step/RepositoryStep.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/step/RepositoryStep.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/writer/PeopleWriter.java" afterPath="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/writer/PeopleWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin/src/main/java/cn/cib/main/SpringBootAdminApplication.java" afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/cn/cib/main/SpringBootAdminApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/ElasticJobApplication.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/ElasticJobApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/DataSourceProperties.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/DataSourceProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/ElasticScriptJobConfig.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/ElasticScriptJobConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/ElasticScriptJobProperties.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/ElasticScriptJobProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/JobEventConfig.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/JobEventConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/MonitorJobConfig.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/MonitorJobConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/MonitorJobProperties.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/MonitorJobProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/RegistryCenterConfig.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/RegistryCenterConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/job/ElasticScriptJob.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/job/ElasticScriptJob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/job/ServiceMonitor.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/job/ServiceMonitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/listener/CommonElasticJobListener.java" afterPath="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/listener/CommonElasticJobListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/cib/controller/Api.java" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/cib/controller/Api.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/cib/model/User.java" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/cib/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/cib/service/UserMapper.java" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/cib/service/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-service-1/src/main/java/com/cib/userservice/controller/ApiController.java" afterPath="$PROJECT_DIR$/user-service-1/src/main/java/com/cib/userservice/controller/ApiController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-service-2/src/main/java/com/cib/userservice/config/SwaggerConfig.java" afterPath="$PROJECT_DIR$/user-service-2/src/main/java/com/cib/userservice/config/SwaggerConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-service-2/src/main/java/com/cib/userservice/controller/ApiController.java" afterPath="$PROJECT_DIR$/user-service-2/src/main/java/com/cib/userservice/controller/ApiController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/config_server/target/" />
@@ -64,8 +100,8 @@
               <caret line="24" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,11 +130,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MonitorJobConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MonitorJobConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/MonitorJobConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="48">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Api.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/cn/cib/configuration/controller/Api.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringBootAdminApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/cn/cib/main/SpringBootAdminApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,16 +169,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
               <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringJobScheduler.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-spring/2.1.5/elastic-job-lite-spring-2.1.5.jar!/com/dangdang/ddframe/job/lite/spring/api/SpringJobScheduler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,16 +194,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MonitorJobProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/MonitorJobProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -168,7 +206,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reader</find>
       <find>jpaProperties</find>
       <find>stepWithJdbcBatchItemWriter</find>
       <find>dataSource</find>
@@ -198,11 +235,13 @@
       <find>lombok</find>
       <find>ServiceMonitor</find>
       <find>run.bat</find>
+      <find>@author kangkang lou</find>
     </findStrings>
     <replaceStrings>
       <replace>icbc</replace>
       <replace>192.168.100.107</replace>
       <replace>192.168.43.61</replace>
+      <replace>@author clyde lou</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -216,8 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-batch/src/main/java/cn/cib/reader/UserReader.java" />
-        <option value="$PROJECT_DIR$/spring-batch/src/main/resources/schema-all.sql" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" />
@@ -267,6 +304,8 @@
         <option value="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/job/ElasticScriptJob.java" />
         <option value="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/JobEventConfig.java" />
         <option value="$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/DataSourceProperties.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/cn/cib/configuration/controller/Api.java" />
+        <option value="$PROJECT_DIR$/spring-boot-admin/src/main/java/cn/cib/main/SpringBootAdminApplication.java" />
       </list>
     </option>
   </component>
@@ -320,6 +359,51 @@
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBootAdminApplication" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -540,7 +624,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
@@ -885,7 +969,7 @@
       <workItem from="1537837459346" duration="123000" />
       <workItem from="1537837625946" duration="1286000" />
       <workItem from="1537878309780" duration="3282000" />
-      <workItem from="1537922484381" duration="4499000" />
+      <workItem from="1537922484381" duration="5011000" />
     </task>
     <task id="LOCAL-00001" summary="config server git account">
       <created>1534121919514</created>
@@ -1048,11 +1132,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536827811992</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="事件追踪">
+      <created>1537929997972</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1537929997972</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212512000" />
+    <option name="totallyTimeSpent" value="213024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1065,6 +1156,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784185" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1074,7 +1166,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5190476" sideWeight="0.24231333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0892587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36190477" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36190477" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47619048" sideWeight="0.7576867" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21428572" sideWeight="0.4897511" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.49048316" order="11" side_tool="false" content_ui="tabs" />
@@ -1082,6 +1174,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3396779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25873017" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1095,7 +1188,6 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26029655" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1152,7 +1244,8 @@
     <MESSAGE value="module rename" />
     <MESSAGE value="Spring Boot" />
     <MESSAGE value="graceful shutdown using actuator" />
-    <option name="LAST_COMMIT_MESSAGE" value="graceful shutdown using actuator" />
+    <MESSAGE value="事件追踪" />
+    <option name="LAST_COMMIT_MESSAGE" value="事件追踪" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1161,20 +1254,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/cn/cib/main/SpringBootAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/docker/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/config-server/docker-compose.yml" />
     <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
@@ -1402,8 +1481,8 @@
         <state relative-caret-position="240">
           <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding>
-            <element signature="e#442#443#0" expanded="false" />
-            <element signature="e#500#501#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1499,16 +1578,34 @@
           <caret line="24" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-elastic-job/src/main/java/cn/cib/config/MonitorJobConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="48">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/cn/cib/configuration/controller/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/cn/cib/main/SpringBootAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

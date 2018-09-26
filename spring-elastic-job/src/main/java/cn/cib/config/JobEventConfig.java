@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.sql.DataSource;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Configuration
 public class JobEventConfig {

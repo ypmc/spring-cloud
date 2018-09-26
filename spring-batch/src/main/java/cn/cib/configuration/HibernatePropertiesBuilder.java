@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 public class HibernatePropertiesBuilder {
 

@@ -5,7 +5,7 @@ import org.springframework.batch.core.ExitStatus;
 import org.springframework.stereotype.Component;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Getter
 @Setter

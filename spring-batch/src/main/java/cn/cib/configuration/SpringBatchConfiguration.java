@@ -24,7 +24,7 @@ import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Configuration
 @Slf4j

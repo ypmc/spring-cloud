@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Service
 public interface UserMapper {

@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Component
 public class RepositoryStep {

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Service
 @FeignClient(value = "user-service", fallback = UserServiceHystrix.class)

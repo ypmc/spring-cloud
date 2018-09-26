@@ -5,7 +5,7 @@ import lombok.*;
 import java.io.Serializable;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Getter
 @Setter

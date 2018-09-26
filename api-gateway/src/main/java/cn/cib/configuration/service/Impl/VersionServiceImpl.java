@@ -11,7 +11,7 @@ import java.util.Timer;
 import java.util.concurrent.*;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 @Service
 public class VersionServiceImpl implements VersionService {

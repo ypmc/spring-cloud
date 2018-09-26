@@ -1,7 +1,7 @@
 package cn.cib.config;
 
 /**
- * @author kangkang lou
+ * @author clyde lou
  */
 
 import cn.cib.job.ServiceMonitor;
