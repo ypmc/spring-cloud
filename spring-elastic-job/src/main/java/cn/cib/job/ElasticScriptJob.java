@@ -1,10 +1,14 @@
 package cn.cib.job;
 
+import cn.cib.config.JobEventConfig;
 import cn.cib.listener.CommonElasticJobListener;
+import com.dangdang.ddframe.job.event.JobEventConfiguration;
 import com.dangdang.ddframe.job.lite.api.JobScheduler;
 import com.dangdang.ddframe.job.lite.config.LiteJobConfiguration;
+import com.dangdang.ddframe.job.lite.spring.api.SpringJobScheduler;
 import com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
@@ -22,8 +26,11 @@ public class ElasticScriptJob {
     @Autowired
     private CommonElasticJobListener commonElasticJobListener;
 
+    @Autowired
+    private JobEventConfiguration jobEventConfiguration;
+
     @Bean(initMethod = "init")
     public JobScheduler scriptJob() {
-        return new JobScheduler(regCenter, scriptLiteJobConfiguration, commonElasticJobListener);
+        return new JobScheduler(regCenter, scriptLiteJobConfiguration, jobEventConfiguration, commonElasticJobListener);
     }
 }

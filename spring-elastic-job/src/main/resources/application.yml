@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: cib-scheduler-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: "jdbc:mysql://192.168.43.61:3306/cib"
+    username: icbc
+    password: icbc
 
 reg-center:
   server-list: "192.168.43.61:2181"
