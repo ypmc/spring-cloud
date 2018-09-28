@@ -1,0 +1,17 @@
+script-job-list:
+  jobs[0]:
+    cron: 0/5 * * * * ?
+    shardingTotalCount: 2
+    shardingItemParameters: 0=BJ,1=SH
+    jobDescription: "elastic script job2"
+    jobParameter: "elastic script job2"
+    jobName: "elastic script job2"
+    scriptCommandLine: "d:/run.bat"
+  jobs[1]:
+    cron: 0/10 * * * * ?
+    shardingTotalCount: 2
+    shardingItemParameters: 0=BJ,1=SH
+    jobDescription: "elastic script job3"
+    jobParameter: "elastic script job3"
+    jobName: "elastic script job4"
+    scriptCommandLine: "d:/run.bat"

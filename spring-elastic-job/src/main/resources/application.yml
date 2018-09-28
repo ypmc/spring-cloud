@@ -16,14 +16,14 @@ reg-center:
   namespace: elastic-job-lite-spring-boot
 
 monitor:
-  cron: 0 0/10 * * * ?
+  cron: 0/20 * * * * ?
   sharding-total-count: 2
   sharding-item-parameters: 0=CIB,1=ICBC
   job-description: "elastic simple job"
   job-parameter: "hello elastic simple job"
 
 scriptJob:
-  cron: 0 0/5 * * * ?
+  cron: 0/30 * * * * ?
   shardingTotalCount: 2
   shardingItemParameters: 0=CIB,1=ICBC
   jobDescription: "elastic script job"
